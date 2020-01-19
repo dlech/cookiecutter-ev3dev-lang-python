@@ -1,0 +1,17 @@
+{
+  "debug.showInStatusBar": "always",
+  "debug.openDebug": "neverOpen",
+  "debug.internalConsoleOptions": "neverOpen",
+  "ev3devBrowser.download.exclude": "{**/.*,**/*.toml}",
+  "python.pythonPath": "${workspaceFolder}/.venv",
+  "python.terminal.activateEnvInCurrentTerminal": false,
+  "python.terminal.activateEnvironment": false,
+  "python.formatting.provider": "yapf",
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
+}
